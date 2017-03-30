@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
@@ -29,57 +29,190 @@
     <div class="slides">
 
 <section>
-  <h1 class="title">Git for the Humanities</h1>
-  <h2 class="author">Geoffrey Gimse &lt; gjgimse@uwm.edu &gt;</h2>
-  <h3 class="date">March 30, 2017</h3>
+  <h2 class="title">Git for the Humanities</h2>
+  <h3 class="author">Geoffrey Gimse</h3>
+  <h4 class="author">@textandhubris</h4>
+  <h4 class="date">March 30, 2017</h4>
 </section>
 
-<section id="what-is-version-control" class="slide level1">
-<h1>What is Version Control?</h1>
+<section id="what-is-version-control" class="slide level2">
+<h2>What is Version Control?</h2>
 <ul>
-<li>A method of tracking document and code changes over time.</li>
+<li class="fragment">A method of tracking document and code changes over time.</li>
 </ul>
 </section>
-<section id="what-files-can-i-manage" class="slide level1">
-<h1>What files can I manage?</h1>
-<ul>
-<li>Text vs. Binary</li>
-</ul>
-<div id="images" style="width:80%;margin:0 auto 0 auto;text-align:center;">
-<p><img src="img/text.png" style="width:30%"> <img src="img/binary.png" style="width:30%"></p>
-</div>
-<h2 id="so-tracking-changes">So? Tracking Changes?</h2>
-<figure>
-<img src="img/track_changes.png" alt="Tracking Changes is not the Answer" /><figcaption>Tracking Changes is not the Answer</figcaption>
-</figure>
-<h2 id="why-not">Why Not?</h2>
-<ul>
-<li class="fragment">Closed-Source - Locked into MS Office</li>
-<li class="fragment">Limited Resuability and Design</li>
-<li class="fragment">Word to Web is Terrible!</li>
-</ul>
-<h2 id="breakfast">Breakfast</h2>
-<ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
-</ul>
-</section>
-<section id="in-the-evening" class="slide level1">
-<h1>In the evening</h1>
-<h2 id="dinner">Dinner</h2>
-<ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
-</ul>
-</section>
-<section class="slide level1">
+<section>
 
-<h2 id="going-to-sleep">Going to sleep</h2>
-<ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
-</ul>
+  <section id="what-files-can-i-manage" class="slide level2">
+    <div id="images" style="width:80%;margin:0 auto 0 auto;text-align:center;">
+      <p><img src="img/text.png" style="width:30%"> <img src="img/binary.png" style="width:30%"></p>
+    </div>
+  </section>
+
+    <section>
+      <figure>
+        <img src="img/track_changes.png" alt="Tracking Changes is not the Answer" / style="width:80%;">
+      </figure>
+      <h2>Tracking Changes is not the Answer</h2>
+    </section>
+
+    <section>
+      <h3 id="why-not">Why Not?</h3>
+      <ul>
+        <li class="fragment">Closed-Source - Locked into MS Office</li>
+        <li class="fragment">Limited Resuability and Design</li>
+        <li class="fragment">Word to Web is Terrible!</li>
+      </ul>
+    </section>
 </section>
+<section>
+
+  <section>
+    <h2> Why does this matter to the Humanities? </h2>
+  </section>
+
+  <section>
+    <h2> The tools we use matter! </h2>
+  </section>
+
+  <section>
+    <h3> Affordances </h3>
+    <ul>
+      <li class="fragment">Accessibility</li>
+      <li class="fragment">Multiple Content Modes</li>
+      <li class="fragment">Open Source - Free (with Caveats)</li>
+      <li class="fragment">Easy-to-use - no complex server needed</li>
+      <li class="fragment">Collaboration without Tool restriction</li>
+      <li class="fragment">Document Management at a Granular Level</li>
+      <li class="fragment">Keep track of your documents and sources</li>
+      <li class="fragment">Multiple Integrations for Build and Design Tools</li>
+    </ul>
+  </section>
+</section>
+<section>
+  <section>
+    What is git?
+  </section>
+  <section>
+    The Good News!
+  </section>
+  <section>
+    Compared to earlier tools - Git is pretty easy.
+  </section>
+  <section>
+    Help is readily available!
+  </section>
+</section>
+<section>
+  <section>
+    <img src="img/github.jpg">
+  </section>
+  <section>
+    GitHub: A set of web-based and desktop designed to make working with git easier.
+  </section>
+  <section>
+    Collaboration Tools
+  </section>
+
+  <section>
+    Comments
+  </section>
+
+  <section>
+    Issue Creation
+  </section>
+
+  <section>
+    Wiki
+  </section>
+
+  <section>
+    Free Website.
+  </section>
+
+  <section>
+    Web-Based - but <em>not</em> Open Source
+    <ul>
+      <li class="fragment">Always keep a backup of your data.</li>
+      <li class="fragment">GitHub is vulnerable to take-down requests, censorship, etc.</li>
+    </ul>
+  </section>
+
+  <section>
+    Github Student Pack - <a href="https://education.github.com/pack">https://education.github.com/pack</a>
+  </section>
+</section>
+<section>
+  <section>
+    Ways to use Git and GitHub?
+  </section>
+  <section>
+    <h3>Ways I use of have used Git and GitHub</h3>
+    <ul>
+      <li class="fragment">Creation of this presentation.</li>
+      <li class="fragment">Develop Notes and Documentation.</li>
+      <li class="fragment">Writing Papers and Articles</li>
+      <li class="fragment">Blog</li>
+      <li class="fragment">Advisor Feedback (still testing)</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Other options</h3>
+    <ul>
+      <li class="fragment">Cooperative Writing Environment.</li>
+      <li class="fragment">Collaborative Publishing Platform.</li>
+    </ul>
+  </section>
+</section>
+<section>
+  Questions?
+</section>
+<section>
+  <h3>Let's Play with some text and code</h3>
+
+  <h4> For more: </h4>
+  <ul>
+    <li>UWM Critical Code Studies - Thursdays @ 2 in DH-Lab (Facebook, Github)</li>
+  </ul>
+</section>
+<section>
+  <h3>Goal: Install Git and Github.</h3>
+  <ul>
+  <li>Create a Github account.</li>
+  <li>Download and Install</li>
+</section>
+
+<section>
+  <h3>Goal: Make a Comment and Log an Issue Using GitHub</h3>
+  <ul>
+    <li>Access My Repository</li>
+    <li>Create an Issue.</li>
+    <li>Respond to an Issue</li>
+</section>
+
+<section>
+  <h3>Goal: Fork a Repository, Make a Change, and Submit a Pull requests</h3>
+    <ul>
+      <li>Fork the Sample Repository</li>
+      <li>Add a file and edit it.</li>
+      <li>Push the change back to your Repository.</li>
+      <li>Issue a pull request.</li>
+</section>
+
+<section>
+  <h3>Goal: Create a Repository and Populate it.</h3>
+</section>
+
+<section>
+  <h3> Goal: Develop and Publish a Basic Web Site. (branches and web site)</h3>
+  <ul>
+  <li>Create a gh-pages branch<li>
+  <li> Add index.html to gh-pages and push.</li>
+  <li>Jekyll for more flexibility -> later Workshop</li>
+  </ul>
+</section>
+
+
     </div>
   </div>
 
