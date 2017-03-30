@@ -54,28 +54,27 @@
 ### Activities ###
 
 Goal: Install Git and Github.
-
 - Create a Github account.
 - Download and Install
     - Mac, Windows, Linux
 
 Goal: Make a Comment and Log an Issue Using GitHub
-    - Access My Repository
-    - Create an Issue.
-    - Respond to an Issue
+- Access My Repository
+- Create an Issue.
+- Respond to an Issue
 
 Goal: Fork a Repository, Make a Change, and Submit a Pull requests
-    - Fork the Sample Repository
-    - Add a file and edit it.
-    - Push the change back to your Repository.
-    - Issue a pull request.  
+- Fork the Sample Repository
+- Add a file and edit it.
+- Push the change back to your Repository.
+- Issue a pull request.  
 
 Goal: Create a Repository and Populate it.
-    - GitHub Way
-    - If interest (command-line)
+- GitHub Way
+- If interest (command-line)
 
 Goal: Develop and Publish a Basic Web Site. (branches and web site)
-    - Create a gh-pages branch.
-        - It can be anything but gh-pages is default.
-    - Add index.html to gh-pages and push.
-    - Jekyll for more flexibility -> later Workshop
+- Create a gh-pages branch.
+    - It can be anything but gh-pages is default.
+- Add index.html to gh-pages and push.
+- Jekyll for more flexibility -> later Workshop
